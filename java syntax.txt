@@ -1,0 +1,51 @@
+To read lines: 
+	Scanner reader = new Scanner(System.in);
+	reader.next()	reads the string
+
+Bit Manipulation: 
+	~ indicates negation
+	^ indicates XOR
+	
+	e.g.
+		- 	1101 >> 2 = 0011		
+		-	0100 * 0011 : Multiplying by 2^n just shifts a number by n. We shift 	 0011 left by 2 to get 1100.
+		-	1101 ^ (~1101) : XOR a number with negated itself : will always yield 1
+				so answer is 1111
+		- 	+ is binary addition 	|
+		- 	&& is Anding			|	<- Two different things
+
+		Facts: 
+			x ^ 0s 	= x
+			x ^ 1s 	= ~x
+			x ^ x 	= 0
+
+			x & 0s	= 0	 
+			x & 1s 	= x
+			x & x 	= x
+
+			x | 0s	= x
+			x | 1s 	= 1s 
+			x | x 	= x
+		
+
+Virtual Function: 
+
+	In object-oriented programming, a virtual function or virtual method is a function or method whose behavior can be overridden within an inheriting class by a function with the same signature. 
+
+Encapsulation :
+
+	Encapsulation is the packing of data and functions into a single component. 
+	In programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof:
+
+	- language mechanism for restricting access to some of the object's components.
+	- language construct that facilitates the bundling of data with the methods (or other functions) operating on that data
+
+Method Overloading: 
+	- Method overloading in Java occurs when two or more methods in the same class have the exact same name but different parameters (remember that method parameters accept values passed into the method).
+
+# List implementation 
+
+List listA = new ArrayList();
+List listB = new LinkedList();
+List listC = new Vector();
+List listD = new Stack();   
